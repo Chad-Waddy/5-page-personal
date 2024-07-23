@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Basic HTML$products$ Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css"> <!-- link to external stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex">
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="card bg-base-100 w-96 shadow-xl"><!--this is the first product card-->
+    <figure>
+      <img
+        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+        alt="Shoes" />
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title">Shoes!</h2>
+      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">Buy Now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-base-100 w-96 shadow-xl"> <!-- this is the product card with the new tag -->
+    <figure>
+      <img
+        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+        alt="Shoes" />
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title">
+        Shoes!
+        <div class="badge badge-secondary">NEW</div>
+      </h2>
+      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <div class="card-actions justify-end">
+        <div class="badge badge-outline">Fashion</div>
+        <div class="badge badge-outline">Products</div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- page content goes here -->
+    <h1>Welcome to my basic HTML page!</h1>
+    <p>This is a paragraph of text.</p>
+  </main>
+  <footer>
+    <p>&copy; 2023 My Basic HTML Page</p>
+  </footer>
+</body>
+</html>
